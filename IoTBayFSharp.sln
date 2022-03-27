@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8CB57F5-C87
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E6D01694-CB7C-4226-99EE-103B75B923FB}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IoTBay", "src\IoTBayFSharp\IoTBay.fsproj", "{C56E75B2-5671-46E1-8594-6529135E7082}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IoTBay", "src\IoTBay\IoTBay.fsproj", "{C56E75B2-5671-46E1-8594-6529135E7082}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IoTBay.Tests", "tests\IoTBayFSharp.Tests\IoTBay.Tests.fsproj", "{DB284F96-3FC7-49A0-8667-18732B962F3E}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "IoTBay.Tests", "tests\IoTBay.Tests\IoTBay.Tests.fsproj", "{DB284F96-3FC7-49A0-8667-18732B962F3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{625E3CAC-600B-450D-BF54-E3059450591A}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,5 +1,5 @@
 [general]
-connection = "Server=34.151.96.119; Database=iotbaydb-test; User Id=sqlserver; Password=ekvkdK2%^8"
+connection = "Server=34.151.96.119; Database=iotbaydb-test; User Id=sqlserver; Password=ekvkdK2%^8; TrustServerCertificate=True"
 output = "Models.fs"
 namespace = "IoTBay.Models"
 cli_mutable = true

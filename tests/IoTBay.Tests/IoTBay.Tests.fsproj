@@ -1,12 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IoTBayFSharp\IoTBay.fsproj" />
+    <ProjectReference Include="..\..\src\IoTBay\IoTBay.fsproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="Tests.fs" />
   </ItemGroup>
