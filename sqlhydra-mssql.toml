@@ -1,0 +1,10 @@
+[general]
+connection = "Server=34.151.96.119; Database=iotbaydb-test; User Id=sqlserver; Password=ekvkdK2%^8"
+output = "Models.fs"
+namespace = "IoTBay.Models"
+cli_mutable = true
+[readers]
+reader_type = "Microsoft.Data.SqlClient.SqlDataReader"
+[filters]
+include = []
+exclude = []
